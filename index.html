@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman game</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hangman Game</h1>
+        <!--Select difficulty section-->
+        <div class="intro-game">
+            <h1>Select Difficulty</h1>
+            <div class="buttons">
+                <button>Easy</button>
+                <button>Medium</button>
+                <button>Hard</button>
+            </div>
+        </div>
+        <div class="start-game hide">
+            <div class="word"></div>
+            <h3 class="guesses">Guesses left: <span class="left"></span><h3/>
+            <h3>Score: <span class="score">0</></h3>
+            <h3>High Score: <span class="highScore">0</></h3>            
+            <button>Reset</button>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
